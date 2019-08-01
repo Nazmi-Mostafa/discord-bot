@@ -40,7 +40,7 @@ if (message.content.startsWith(prefix + 'setavatar')) {
 }
 
 if (message.content.startsWith(prefix + 'setT')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/ilordz");
+  client.user.setGame(argresult, "https://www.twitch.tv/nazmiyt");
      console.log('test' + argresult);
     message.channel.sendMessage(`Streaming: **${argresult}`)
 } 
